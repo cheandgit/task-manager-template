@@ -1,4 +1,3 @@
-```markdown
 # FastAPI Task Manager (учебный проект)
 
 Простой REST API для управления задачами, написанный на FastAPI.  
