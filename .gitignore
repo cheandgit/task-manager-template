@@ -17,7 +17,7 @@ env/
 .vscode/
 .idea/
 *.iml
-frontend/
+
 # Файлы ОС
 .DS_Store
 Thumbs.db
