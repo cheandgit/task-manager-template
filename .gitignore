@@ -17,7 +17,7 @@ env/
 .vscode/
 .idea/
 *.iml
-
+frontend/
 # Файлы ОС
 .DS_Store
 Thumbs.db
@@ -50,9 +50,6 @@ htmlcov/
 .pytest_cache/
 .tox/
 .coverage
-
-# Вспомогательные HTML-интерфейсы
-frontend/
 
 # Версии файлов (для разных занятий)
 versions/
