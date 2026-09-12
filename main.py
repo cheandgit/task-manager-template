@@ -6,7 +6,7 @@ import uuid
 from datetime import datetime
 from fastapi.middleware.cors import CORSMiddleware
 # ==========================================================
-# 3-я версия: main-v3.py
+# main.py (3-я версия)
 # Все методы CRUD + CORS
 # Есть иициализация списка тремя тестовыми задачами
 # Исправлено предупрждение
