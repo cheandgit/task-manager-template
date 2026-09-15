@@ -6,7 +6,7 @@ import uuid
 from datetime import datetime
 from fastapi.middleware.cors import CORSMiddleware
 # ==========================================================
-# main.py (3-я версия)
+# main.py (4-я версия)
 # Все методы CRUD + CORS
 # Есть иициализация списка тремя тестовыми задачами
 # Исправлено предупрждение
@@ -137,8 +137,8 @@ async def update_task(task_id: str, task_update: TaskCreate):
 
 @app.delete("/tasks/{task_id}", status_code=status.HTTP_204_NO_CONTENT)
 async def delete_task(task_id: str):
-    get_task_or_404(task_id)  # Check if task exists
-    del tasks_db[task_id]
+    # Добавить код метода
+
     return None
 
 # Health check endpoint
