@@ -29,6 +29,7 @@
 │       └── ci.yml        # Базовый CI: проверка синтаксиса, flake8 и pytest
 ├── tests/                # Папка с тестами pytest
 │   └── test_health.py    # Тест эндпоинта "/health"
+├── variants/             # Варианты тестов
 ├── .gitignore            # Файлы и каталоги, исключённые из Git
 ├── conftest.py           # Общая конфигурация pytest
 ├── main.py               # Главный файл приложения (API-эндпоинты)
